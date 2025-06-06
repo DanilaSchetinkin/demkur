@@ -15,14 +15,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = demkur
-build_property.ProjectDir = D:\Users\АЛЕКСАНДР\Source\Repos\demkur\demkur\
+build_property.ProjectDir = C:\Users\class_student\source\repos\demkur\demkur\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[D:/Users/АЛЕКСАНДР/Source/Repos/demkur/demkur/App.axaml]
+[C:/Users/class_student/source/repos/demkur/demkur/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[D:/Users/АЛЕКСАНДР/Source/Repos/demkur/demkur/MainWindow.axaml]
+[C:/Users/class_student/source/repos/demkur/demkur/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

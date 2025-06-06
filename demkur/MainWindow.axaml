@@ -2,9 +2,16 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="using:demkur"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="demkur.MainWindow"
+		x:CompileBindings="False"
         Title="demkur">
+
+	<Window.Resources>
+		<local:DiscountToBackgroundConverter x:Key="DiscountToBackgroundConverter" />
+	</Window.Resources>
+	
 	<DockPanel>
 		<StackPanel
 		DockPanel.Dock="Top"
@@ -59,17 +66,17 @@
 
 			<TextBlock></TextBlock>
 		</StackPanel>
-		<ListBox x:Name="AgentBox">
+		<ListBox x:Name="TovarBox">
 			<ListBox.ItemTemplate>
 				<DataTemplate>
-					<Border
-						BorderBrush="Gray"
-						BorderThickness="1"
-						Padding="5">
+					<Border Background="{Binding Discount, Converter={StaticResource DiscountToBackgroundConverter}}"
+        BorderBrush="Gray"
+        BorderThickness="1"
+        Padding="5">
 						<StackPanel HorizontalAlignment="Center">
 							<StackPanel>
 								<Image
-					Source="{Binding}"
+					Source="{Binding ImagePath}"
 									Width="100"
 									Height="100">
 
@@ -80,16 +87,16 @@
 									Text="Название: ">
 								</TextBlock>
 								<TextBlock
-					Text ="{Binding}"
+					Text ="{Binding ProductName}"
 									TextWrapping="Wrap"
 									TextAlignment="Center"/>
 							</StackPanel>
 							<StackPanel Orientation="Horizontal">
 								<TextBlock
-									Text="Номер телефона: ">
+									Text="Описание: ">
 								</TextBlock>
 								<TextBlock
-									Text ="{Binding}"
+									Text ="{Binding Description}"
 									TextAlignment="Center">
 								</TextBlock>
 							</StackPanel>
@@ -97,22 +104,10 @@
 
 							<StackPanel Orientation="Horizontal">
 								<TextBlock
-									Text="Почта: ">
+									Text="Производитель: ">
 								</TextBlock>
 								<TextBlock
-									Text ="{Binding}"
-									TextAlignment="Center">
-
-								</TextBlock>
-							</StackPanel>
-
-
-							<StackPanel Orientation="Horizontal">
-								<TextBlock
-									Text="Тип агента: ">
-								</TextBlock>
-								<TextBlock
-									Text ="{Binding}"
+									Text ="{Binding Manufacturer}"
 									TextAlignment="Center">
 
 								</TextBlock>
@@ -121,22 +116,10 @@
 
 							<StackPanel Orientation="Horizontal">
 								<TextBlock
-									Text="Приоритет: ">
+									Text="Цена: ">
 								</TextBlock>
 								<TextBlock
-									Text ="{Binding}"
-									TextAlignment="Center">
-
-								</TextBlock>
-							</StackPanel>
-
-
-							<StackPanel Orientation="Horizontal">
-								<TextBlock
-									Text="Продажи: ">
-								</TextBlock>
-								<TextBlock
-									Text ="{Binding }"
+									Text ="{Binding Price}"
 									TextAlignment="Center">
 
 								</TextBlock>
@@ -148,13 +131,11 @@
 									Text="Скидка: ">
 								</TextBlock>
 								<TextBlock
-									Text ="{Binding}"
+									Text ="{Binding Discount}"
 									TextAlignment="Center">
 
 								</TextBlock>
 							</StackPanel>
-
-
 						</StackPanel>
 					</Border>
 				</DataTemplate>
