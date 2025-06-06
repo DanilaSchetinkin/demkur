@@ -1,4 +1,5 @@
 using Avalonia.Controls;
+using demkur.Models;
 
 namespace demkur
 {
@@ -7,6 +8,12 @@ namespace demkur
         public MainWindow()
         {
             InitializeComponent();
+            using var ctx = new User20Context();
+        }
+
+        public class Tovar
+        {
+
         }
     }
 }

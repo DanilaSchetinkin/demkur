@@ -5,5 +5,161 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="demkur.MainWindow"
         Title="demkur">
-    Welcome to Avalonia!
+	<DockPanel>
+		<StackPanel
+		DockPanel.Dock="Top"
+		Spacing="5"
+		HorizontalAlignment="Center"
+		Orientation="Horizontal"
+		Height="70">
+			<StackPanel>
+				<TextBlock
+					HorizontalAlignment="Center"
+					Text="Стоимость">
+				</TextBlock>
+				<ComboBox
+					VerticalAlignment="Center"
+					Width="100"
+					x:Name="titleComboBox">
+					<ComboBoxItem>
+						без сорт
+					</ComboBoxItem>
+					<ComboBoxItem>
+						убывю
+					</ComboBoxItem>
+					<ComboBoxItem>
+						возраст
+					</ComboBoxItem>
+				</ComboBox>
+			</StackPanel>
+			<StackPanel>
+				<TextBlock
+					HorizontalAlignment="Center"
+					Text="Скидка">
+				</TextBlock>
+				<ComboBox
+					VerticalAlignment="Center"
+					Width="100"
+					x:Name="discountComboBox">
+					<ComboBoxItem>
+						без сорт
+					</ComboBoxItem>
+					<ComboBoxItem>
+						убывю
+					</ComboBoxItem>
+					<ComboBoxItem>
+						возраст
+					</ComboBoxItem>
+				</ComboBox>
+			</StackPanel>
+			<StackPanel>
+				
+
+			</StackPanel>
+
+			<TextBlock></TextBlock>
+		</StackPanel>
+		<ListBox x:Name="AgentBox">
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<Border
+						BorderBrush="Gray"
+						BorderThickness="1"
+						Padding="5">
+						<StackPanel HorizontalAlignment="Center">
+							<StackPanel>
+								<Image
+					Source="{Binding}"
+									Width="100"
+									Height="100">
+
+								</Image>
+							</StackPanel>
+							<StackPanel Orientation="Horizontal">
+								<TextBlock
+									Text="Название: ">
+								</TextBlock>
+								<TextBlock
+					Text ="{Binding}"
+									TextWrapping="Wrap"
+									TextAlignment="Center"/>
+							</StackPanel>
+							<StackPanel Orientation="Horizontal">
+								<TextBlock
+									Text="Номер телефона: ">
+								</TextBlock>
+								<TextBlock
+									Text ="{Binding}"
+									TextAlignment="Center">
+								</TextBlock>
+							</StackPanel>
+
+
+							<StackPanel Orientation="Horizontal">
+								<TextBlock
+									Text="Почта: ">
+								</TextBlock>
+								<TextBlock
+									Text ="{Binding}"
+									TextAlignment="Center">
+
+								</TextBlock>
+							</StackPanel>
+
+
+							<StackPanel Orientation="Horizontal">
+								<TextBlock
+									Text="Тип агента: ">
+								</TextBlock>
+								<TextBlock
+									Text ="{Binding}"
+									TextAlignment="Center">
+
+								</TextBlock>
+							</StackPanel>
+
+
+							<StackPanel Orientation="Horizontal">
+								<TextBlock
+									Text="Приоритет: ">
+								</TextBlock>
+								<TextBlock
+									Text ="{Binding}"
+									TextAlignment="Center">
+
+								</TextBlock>
+							</StackPanel>
+
+
+							<StackPanel Orientation="Horizontal">
+								<TextBlock
+									Text="Продажи: ">
+								</TextBlock>
+								<TextBlock
+									Text ="{Binding }"
+									TextAlignment="Center">
+
+								</TextBlock>
+							</StackPanel>
+
+
+							<StackPanel Orientation="Horizontal">
+								<TextBlock
+									Text="Скидка: ">
+								</TextBlock>
+								<TextBlock
+									Text ="{Binding}"
+									TextAlignment="Center">
+
+								</TextBlock>
+							</StackPanel>
+
+
+						</StackPanel>
+					</Border>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+
+		</ListBox>
+	</DockPanel>
 </Window>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("demkur")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4af2ff9178ed13eaaa42d68e4a3762a0ce4aff2")]
 [assembly: System.Reflection.AssemblyProductAttribute("demkur")]
 [assembly: System.Reflection.AssemblyTitleAttribute("demkur")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
