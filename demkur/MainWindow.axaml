@@ -2,145 +2,81 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-		xmlns:local="using:demkur"
+        xmlns:local="using:demkur"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="demkur.MainWindow"
-		x:CompileBindings="False"
+        x:CompileBindings="False"
         Title="demkur">
 
 	<Window.Resources>
 		<local:DiscountToBackgroundConverter x:Key="DiscountToBackgroundConverter" />
+		<local:PriceTextDecorationsConverter x:Key="PriceTextDecorationsConverter" />
+		<local:DiscountToVisibilityConverter x:Key="DiscountToVisibilityConverter" />
 	</Window.Resources>
-	
+
 	<DockPanel>
-		<StackPanel
-		DockPanel.Dock="Top"
-		Spacing="5"
-		HorizontalAlignment="Center"
-		Orientation="Horizontal"
-		Height="70">
+		<StackPanel DockPanel.Dock="Top" Spacing="5" HorizontalAlignment="Center" Orientation="Horizontal" Height="70">
 			<StackPanel>
-				<TextBlock
-					HorizontalAlignment="Center"
-					Text="Стоимость">
-				</TextBlock>
-				<ComboBox
-					VerticalAlignment="Center"
-					Width="100"
-					x:Name="titleComboBox">
-					<ComboBoxItem>
-						без сорт
-					</ComboBoxItem>
-					<ComboBoxItem>
-						убывю
-					</ComboBoxItem>
-					<ComboBoxItem>
-						возраст
-					</ComboBoxItem>
+				<TextBlock HorizontalAlignment="Center" Text="Сортировка по цене"/>
+				<ComboBox VerticalAlignment="Center" Width="150" x:Name="priceComboBox">
+					<ComboBoxItem>Без сортировки</ComboBoxItem>
+					<ComboBoxItem>По возрастанию</ComboBoxItem>
+					<ComboBoxItem>По убыванию</ComboBoxItem>
 				</ComboBox>
 			</StackPanel>
 			<StackPanel>
-				<TextBlock
-					HorizontalAlignment="Center"
-					Text="Скидка">
-				</TextBlock>
-				<ComboBox
-					VerticalAlignment="Center"
-					Width="100"
-					x:Name="discountComboBox">
-					<ComboBoxItem>
-						без сорт
-					</ComboBoxItem>
-					<ComboBoxItem>
-						убывю
-					</ComboBoxItem>
-					<ComboBoxItem>
-						возраст
-					</ComboBoxItem>
+				<TextBlock HorizontalAlignment="Center" Text="Фильтр по скидке"/>
+				<ComboBox VerticalAlignment="Center" Width="150" x:Name="discountComboBox">
+					<ComboBoxItem>Все диапазоны</ComboBoxItem>
+					<ComboBoxItem>0-9,99%</ComboBoxItem>
+					<ComboBoxItem>10-14,99%</ComboBoxItem>
+					<ComboBoxItem>15% и более</ComboBoxItem>
 				</ComboBox>
 			</StackPanel>
-			<StackPanel>
-				
-
+			<StackPanel VerticalAlignment="Center" Margin="20,0,0,0">
+				<TextBlock x:Name="itemCountText" FontWeight="Bold"/>
 			</StackPanel>
-
-			<TextBlock></TextBlock>
 		</StackPanel>
 		<ListBox x:Name="TovarBox">
 			<ListBox.ItemTemplate>
 				<DataTemplate>
 					<Border Background="{Binding Discount, Converter={StaticResource DiscountToBackgroundConverter}}"
-        BorderBrush="Gray"
-        BorderThickness="1"
-        Padding="5">
-						<StackPanel HorizontalAlignment="Center">
-							<StackPanel>
-								<Image
-					Source="{Binding ImagePath}"
-									Width="100"
-									Height="100">
-
-								</Image>
+                            BorderBrush="Gray"
+                            BorderThickness="1"
+                            Padding="5"
+                            Margin="5">
+						<StackPanel HorizontalAlignment="Center" Width="300">
+							<StackPanel HorizontalAlignment="Center">
+								<Image Source="{Binding ImagePath}" Width="100" Height="100"/>
 							</StackPanel>
 							<StackPanel Orientation="Horizontal">
-								<TextBlock
-									Text="Название: ">
-								</TextBlock>
-								<TextBlock
-					Text ="{Binding ProductName}"
-									TextWrapping="Wrap"
-									TextAlignment="Center"/>
+								<TextBlock Text="Название: "/>
+								<TextBlock Text="{Binding ProductName}" TextWrapping="Wrap" TextAlignment="Center"/>
 							</StackPanel>
 							<StackPanel Orientation="Horizontal">
-								<TextBlock
-									Text="Описание: ">
-								</TextBlock>
-								<TextBlock
-									Text ="{Binding Description}"
-									TextAlignment="Center">
-								</TextBlock>
+								<TextBlock Text="Описание: "/>
+								<TextBlock Text="{Binding Description}" TextAlignment="Center"/>
 							</StackPanel>
-
-
 							<StackPanel Orientation="Horizontal">
-								<TextBlock
-									Text="Производитель: ">
-								</TextBlock>
-								<TextBlock
-									Text ="{Binding Manufacturer}"
-									TextAlignment="Center">
-
-								</TextBlock>
+								<TextBlock Text="Производитель: "/>
+								<TextBlock Text="{Binding Manufacturer}" TextAlignment="Center"/>
 							</StackPanel>
-
-
 							<StackPanel Orientation="Horizontal">
-								<TextBlock
-									Text="Цена: ">
-								</TextBlock>
-								<TextBlock
-									Text ="{Binding Price}"
-									TextAlignment="Center">
-
-								</TextBlock>
+								<TextBlock Text="Цена: "/>
+								<TextBlock Text="{Binding Price}" TextAlignment="Center"
+										   TextDecorations="{Binding Discount, Converter={StaticResource PriceTextDecorationsConverter}}"/>
+								<TextBlock Text="{Binding FinalPrice, StringFormat='{} (со скидкой: {0:C2})'}"
+										   Foreground="Red" Margin="5,0,0,0"
+										   IsVisible="{Binding Discount, Converter={StaticResource DiscountToVisibilityConverter}}"/>
 							</StackPanel>
-
-
 							<StackPanel Orientation="Horizontal">
-								<TextBlock
-									Text="Скидка: ">
-								</TextBlock>
-								<TextBlock
-									Text ="{Binding Discount}"
-									TextAlignment="Center">
-
-								</TextBlock>
+								<TextBlock Text="Скидка: "/>
+								<TextBlock Text="{Binding Discount, StringFormat='{} {0}%'}" TextAlignment="Center"/>
 							</StackPanel>
 						</StackPanel>
 					</Border>
 				</DataTemplate>
 			</ListBox.ItemTemplate>
-
 		</ListBox>
 	</DockPanel>
 </Window>

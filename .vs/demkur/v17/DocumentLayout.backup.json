@@ -7,12 +7,28 @@
       "RelativeMoniker": "D:0:0:{60A60ABA-6E4A-41ED-BBF4-94DD5DE6FACD}|demkur\\demkur.csproj|solutionrelative:demkur\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60A60ABA-6E4A-41ED-BBF4-94DD5DE6FACD}|demkur\\demkur.csproj|d:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\demkur\\demkur\\demkur.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{60A60ABA-6E4A-41ED-BBF4-94DD5DE6FACD}|demkur\\demkur.csproj|solutionrelative:demkur\\demkur.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{60A60ABA-6E4A-41ED-BBF4-94DD5DE6FACD}|demkur\\demkur.csproj|d:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\demkur\\demkur\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60A60ABA-6E4A-41ED-BBF4-94DD5DE6FACD}|demkur\\demkur.csproj|solutionrelative:demkur\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60A60ABA-6E4A-41ED-BBF4-94DD5DE6FACD}|demkur\\demkur.csproj|d:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\demkur\\demkur\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{60A60ABA-6E4A-41ED-BBF4-94DD5DE6FACD}|demkur\\demkur.csproj|solutionrelative:demkur\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60A60ABA-6E4A-41ED-BBF4-94DD5DE6FACD}|demkur\\demkur.csproj|d:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\demkur\\demkur\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60A60ABA-6E4A-41ED-BBF4-94DD5DE6FACD}|demkur\\demkur.csproj|solutionrelative:demkur\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60A60ABA-6E4A-41ED-BBF4-94DD5DE6FACD}|demkur\\demkur.csproj|d:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\demkur\\demkur\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60A60ABA-6E4A-41ED-BBF4-94DD5DE6FACD}|demkur\\demkur.csproj|solutionrelative:demkur\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60A60ABA-6E4A-41ED-BBF4-94DD5DE6FACD}|demkur\\demkur.csproj|d:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\demkur\\demkur\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60A60ABA-6E4A-41ED-BBF4-94DD5DE6FACD}|demkur\\demkur.csproj|solutionrelative:demkur\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60A60ABA-6E4A-41ED-BBF4-94DD5DE6FACD}|demkur\\demkur.csproj|d:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440\\source\\repos\\demkur\\demkur\\demkur.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{60A60ABA-6E4A-41ED-BBF4-94DD5DE6FACD}|demkur\\demkur.csproj|solutionrelative:demkur\\demkur.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,15 +62,27 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\source\\repos\\demkur\\demkur\\Program.cs",
+              "RelativeDocumentMoniker": "demkur\\Program.cs",
+              "ToolTip": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\source\\repos\\demkur\\demkur\\Program.cs",
+              "RelativeToolTip": "demkur\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T08:31:17.118Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "demkur.csproj",
-              "DocumentMoniker": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\Source\\Repos\\demkur\\demkur\\demkur.csproj",
-              "RelativeDocumentMoniker": "demkur\\demkur.csproj",
-              "ToolTip": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\Source\\Repos\\demkur\\demkur\\demkur.csproj",
-              "RelativeToolTip": "demkur\\demkur.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-23T12:04:29.439Z",
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\source\\repos\\demkur\\demkur\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "demkur\\MainWindow.axaml.cs",
+              "ToolTip": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\source\\repos\\demkur\\demkur\\MainWindow.axaml.cs",
+              "RelativeToolTip": "demkur\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAowKIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:03:45.052Z",
               "EditorCaption": ""
             },
             {
@@ -66,20 +94,56 @@
               "ToolTip": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\source\\repos\\demkur\\demkur\\MainWindow.axaml",
               "RelativeToolTip": "demkur\\MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-23T12:03:45.123Z",
+              "WhenOpened": "2025-06-06T10:04:09.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\source\\repos\\demkur\\demkur\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "demkur\\Models\\Product.cs",
+              "ToolTip": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\source\\repos\\demkur\\demkur\\Models\\Product.cs",
+              "RelativeToolTip": "demkur\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T08:36:50.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\source\\repos\\demkur\\demkur\\App.axaml.cs",
+              "RelativeDocumentMoniker": "demkur\\App.axaml.cs",
+              "ToolTip": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\source\\repos\\demkur\\demkur\\App.axaml.cs",
+              "RelativeToolTip": "demkur\\App.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T11:20:16.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "demkur.csproj",
+              "DocumentMoniker": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\Source\\Repos\\demkur\\demkur\\demkur.csproj",
+              "RelativeDocumentMoniker": "demkur\\demkur.csproj",
+              "ToolTip": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\Source\\Repos\\demkur\\demkur\\demkur.csproj",
+              "RelativeToolTip": "demkur\\demkur.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-23T12:04:29.439Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\source\\repos\\demkur\\demkur\\MainWindow.axaml.cs",
-              "RelativeDocumentMoniker": "demkur\\MainWindow.axaml.cs",
-              "ToolTip": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\source\\repos\\demkur\\demkur\\MainWindow.axaml.cs",
-              "RelativeToolTip": "demkur\\MainWindow.axaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T12:03:45.052Z"
+              "Title": "App.axaml",
+              "DocumentMoniker": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\source\\repos\\demkur\\demkur\\App.axaml",
+              "RelativeDocumentMoniker": "demkur\\App.axaml",
+              "ToolTip": "D:\\Users\\\u0410\u041B\u0415\u041A\u0421\u0410\u041D\u0414\u0420\\source\\repos\\demkur\\demkur\\App.axaml",
+              "RelativeToolTip": "demkur\\App.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-06T11:20:17.289Z"
             }
           ]
         },

@@ -307,3 +307,14 @@ C:\Users\class_student\source\repos\demkur\demkur\obj\Debug\net8.0\refint\demkur
 C:\Users\class_student\source\repos\demkur\demkur\obj\Debug\net8.0\demkur.pdb
 C:\Users\class_student\source\repos\demkur\demkur\obj\Debug\net8.0\demkur.genruntimeconfig.cache
 C:\Users\class_student\source\repos\demkur\demkur\obj\Debug\net8.0\ref\demkur.dll
+D:\Users\АЛЕКСАНДР\Source\Repos\demkur\demkur\bin\Debug\net8.0\image\A346R4.png
+D:\Users\АЛЕКСАНДР\Source\Repos\demkur\demkur\bin\Debug\net8.0\image\A543T6.png
+D:\Users\АЛЕКСАНДР\Source\Repos\demkur\demkur\bin\Debug\net8.0\image\B730E2.png
+D:\Users\АЛЕКСАНДР\Source\Repos\demkur\demkur\bin\Debug\net8.0\image\D419T7.png
+D:\Users\АЛЕКСАНДР\Source\Repos\demkur\demkur\bin\Debug\net8.0\image\F719R5.png
+D:\Users\АЛЕКСАНДР\Source\Repos\demkur\demkur\bin\Debug\net8.0\image\G278R6.png
+D:\Users\АЛЕКСАНДР\Source\Repos\demkur\demkur\bin\Debug\net8.0\image\H452A3.png
+D:\Users\АЛЕКСАНДР\Source\Repos\demkur\demkur\bin\Debug\net8.0\image\picture.png
+D:\Users\АЛЕКСАНДР\Source\Repos\demkur\demkur\bin\Debug\net8.0\image\R259E6.png
+D:\Users\АЛЕКСАНДР\Source\Repos\demkur\demkur\bin\Debug\net8.0\image\T564P5.png
+D:\Users\АЛЕКСАНДР\Source\Repos\demkur\demkur\bin\Debug\net8.0\image\А112Т4.png
